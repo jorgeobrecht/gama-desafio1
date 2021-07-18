@@ -15,7 +15,7 @@ form.addEventListener('submit',(e)=>{
 
     let content=document.getElementById('content')
 
-    let enviado =`<p class="enviado">Informações enviadas</p>` 
+    let enviado =`<br/><br/><p class="enviado">Informações enviadas !</p>` 
 
     content.innerHTML=enviado
 
